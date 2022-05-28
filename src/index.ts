@@ -1,4 +1,4 @@
-import path from 'path';
+import * as path from 'path';
 import { Code, Function, Runtime } from 'aws-cdk-lib/aws-lambda';
 import { Construct } from 'constructs';
 
