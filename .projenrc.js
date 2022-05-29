@@ -1,10 +1,12 @@
 const { awscdk } = require('projen');
+const { NpmAccess } = require('projen/lib/javascript');
 const project = new awscdk.AwsCdkConstructLibrary({
   author: 'maafk',
   authorAddress: 'maafk@users.noreply.github.com',
   cdkVersion: '2.25.0',
   defaultReleaseBranch: 'main',
   name: '@professionalaf/enterprise-utils',
+  npmAccess: NpmAccess.PUBLIC,
   repositoryUrl: 'git@github.com:professionalaf/enterprise-utils.git',
   publishToPypi: {
     distName: 'enterprise-utils',
