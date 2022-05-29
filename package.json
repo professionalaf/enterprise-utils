@@ -1,5 +1,5 @@
 {
-  "name": "enterprise-utils",
+  "name": "@professionalaf/enterprise-utils",
   "repository": {
     "type": "git",
     "url": "git@github.com:professionalaf/enterprise-utils.git"

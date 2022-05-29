@@ -4,7 +4,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   authorAddress: 'maafk@users.noreply.github.com',
   cdkVersion: '2.25.0',
   defaultReleaseBranch: 'main',
-  name: 'enterprise-utils',
+  name: '@professionalaf/enterprise-utils',
   repositoryUrl: 'git@github.com:professionalaf/enterprise-utils.git',
   publishToPypi: {
     distName: 'enterprise-utils',
