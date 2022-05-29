@@ -7,10 +7,11 @@ const project = new awscdk.AwsCdkConstructLibrary({
   defaultReleaseBranch: 'main',
   name: '@professionalaf/enterprise-utils',
   npmAccess: NpmAccess.PUBLIC,
-  repositoryUrl: 'git@github.com:professionalaf/enterprise-utils.git',
+  repositoryUrl: 'https://github.com/professionalaf/enterprise-utils.git',
   publishToPypi: {
     distName: 'enterprise-utils',
     module: 'enterprise_utils',
+    homepage: 'https://github.com/professionalaf/enterprise-utils',
   },
   publishToNuget: {
     packageId: 'professionalaf.EnterpriseUtils',
