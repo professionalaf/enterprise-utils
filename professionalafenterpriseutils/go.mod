@@ -1,4 +1,4 @@
-module github.com/professionalaf/enterprise-utils/enterpriseutils
+module github.com/professionalaf/enterprise-utils/professionalafenterpriseutils
 
 go 1.16
 
