@@ -1,12 +1,12 @@
-// enterprise-utils
-package enterpriseutils
+// @professionalaf/enterprise-utils
+package professionalafenterpriseutils
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/professionalaf/enterprise-utils/enterpriseutils/jsii"
+	_init_ "github.com/professionalaf/enterprise-utils/professionalafenterpriseutils/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/professionalaf/enterprise-utils/enterpriseutils/internal"
+	"github.com/professionalaf/enterprise-utils/professionalafenterpriseutils/internal"
 )
 
 type PythonLambdaWithPrivatePypi interface {
@@ -83,7 +83,7 @@ func NewPythonLambdaWithPrivatePypi(scope constructs.Construct, id *string, prop
 	j := jsiiProxy_PythonLambdaWithPrivatePypi{}
 
 	_jsii_.Create(
-		"enterprise-utils.PythonLambdaWithPrivatePypi",
+		"@professionalaf/enterprise-utils.PythonLambdaWithPrivatePypi",
 		[]interface{}{scope, id, props},
 		&j,
 	)
@@ -95,7 +95,7 @@ func NewPythonLambdaWithPrivatePypi_Override(p PythonLambdaWithPrivatePypi, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"enterprise-utils.PythonLambdaWithPrivatePypi",
+		"@professionalaf/enterprise-utils.PythonLambdaWithPrivatePypi",
 		[]interface{}{scope, id, props},
 		p,
 	)
@@ -111,7 +111,7 @@ func PythonLambdaWithPrivatePypi_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"enterprise-utils.PythonLambdaWithPrivatePypi",
+		"@professionalaf/enterprise-utils.PythonLambdaWithPrivatePypi",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,

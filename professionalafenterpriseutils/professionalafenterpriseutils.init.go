@@ -1,4 +1,4 @@
-package enterpriseutils
+package professionalafenterpriseutils
 
 import (
 	"reflect"
@@ -8,7 +8,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"enterprise-utils.PythonLambdaWithPrivatePypi",
+		"@professionalaf/enterprise-utils.PythonLambdaWithPrivatePypi",
 		reflect.TypeOf((*PythonLambdaWithPrivatePypi)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "codePath", GoGetter: "CodePath"},
@@ -25,7 +25,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"enterprise-utils.PythonLambdaWithPrivatePypiProps",
+		"@professionalaf/enterprise-utils.PythonLambdaWithPrivatePypiProps",
 		reflect.TypeOf((*PythonLambdaWithPrivatePypiProps)(nil)).Elem(),
 	)
 }
