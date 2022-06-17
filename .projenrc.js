@@ -6,6 +6,10 @@ const project = new awscdk.AwsCdkConstructLibrary({
   cdkVersion: '2.25.0',
   defaultReleaseBranch: 'main',
   name: '@professionalaf/enterprise-utils',
+  autoApproveOptions: {
+    allowedUsernames: ['maafk'],
+  },
+  autoApproveUpgrades: true,
   npmAccess: NpmAccess.PUBLIC,
   repositoryUrl: 'https://github.com/professionalaf/enterprise-utils.git',
   publishToPypi: {
